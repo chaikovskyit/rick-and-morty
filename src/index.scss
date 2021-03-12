@@ -1,0 +1,54 @@
+.body {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(65, 162, 189);
+}
+.container {
+	background-color: rgb(65, 162, 189);
+}
+
+.filter {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.logo {
+	margin-right: 20px;
+}
+.card {
+	margin: 10px;
+	height: 280px;
+	width: 200px;
+	cursor: pointer;
+	.card-body {
+		padding: 20px 10px;
+		h5 {
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+	}
+}
+
+.characters {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		background-color: rgb(65, 162, 189);
+		padding: 5px;
+	}
+	h1 {
+		color: white;
+	}
+}
+
+.pagination {
+}
+
+.modalHeader img {
+	display: flex;
+	justify-content: center;
+}
